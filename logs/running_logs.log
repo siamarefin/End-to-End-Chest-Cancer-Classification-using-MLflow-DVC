@@ -25,3 +25,58 @@ x==========x]
 [2024-08-13 11:37:17,003: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-08-14 11:11:37,257: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-14 11:11:37,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-14 11:11:37,275: INFO: common: created directory at: artifacts]
+[2024-08-14 11:11:37,278: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-14 11:11:48,389: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-14 11:11:48,588: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-14 11:23:35,117: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-14 11:23:35,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-14 11:23:35,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-14 11:23:35,132: INFO: common: created directory at: artifacts]
+[2024-08-14 11:23:35,132: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-14 11:23:35,132: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:23:47,587: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:23:48,061: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-08-14 11:24:44,934: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-14 11:24:44,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-14 11:24:44,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-14 11:24:44,934: INFO: common: created directory at: artifacts]
+[2024-08-14 11:24:44,934: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-14 11:24:44,934: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:25:01,297: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:25:01,764: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-08-14 11:25:01,764: INFO: main: *******************]
+[2024-08-14 11:25:01,764: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-08-14 11:25:01,764: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "c:\Users\Siam\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\main.py", line 22, in <module>
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2024-08-14 11:25:45,586: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-14 11:25:45,586: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-14 11:25:45,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-14 11:25:45,586: INFO: common: created directory at: artifacts]
+[2024-08-14 11:25:45,586: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-14 11:25:45,586: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:25:57,843: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-14 11:25:58,342: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-08-14 11:25:58,357: INFO: main: *******************]
+[2024-08-14 11:25:58,357: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-08-14 11:25:58,357: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-14 11:25:58,357: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-14 11:25:58,357: INFO: common: created directory at: artifacts]
+[2024-08-14 11:25:58,357: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-08-14 11:25:58,825: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-14 11:25:58,974: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-08-14 11:25:59,093: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
